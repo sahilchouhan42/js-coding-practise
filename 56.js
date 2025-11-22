@@ -37,3 +37,7 @@ const users = [
 ]
 
 users.forEach((user, i)=>console.log(`The name of user at ${i} is ${user.firstName} `))
+
+for(let user of users){
+    console.log(`The name of user is ${user.firstName} and age is ${user.age}`)
+}
