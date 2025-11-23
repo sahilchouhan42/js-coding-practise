@@ -17,4 +17,8 @@ const personsData = [
 ]
 
 const singlePersonName = personsData.map((singlePerson)=>singlePerson.firstName)
+const singlePersonAge = personsData.map((singlePerson)=>singlePerson.age)
+const singlePersonEmail = personsData.map((singlePerson)=>singlePerson.email)
 console.log(singlePersonName)
+console.log(singlePersonAge)
+console.log(singlePersonEmail)
